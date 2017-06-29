@@ -1,17 +1,27 @@
-## Static, meet dynamic.
+## Portfolio
 
-**Demo: https://vue-jekyll.surge.sh**
+I’m Faruk Ateş, and this is the start of my [portfolio website](http://portfolio.farukat.es/), focusing on Product Design and Development.
 
-[This Repo](https://github.com/BryanSchuetz/vue-jekyll) is a bare-bones template for building static sites that leverage a client-side JS framework for dynamic functionality. It uses [NPM](https://www.npmjs.com/), [Webpack](https://webpack.js.org), [Vue](https://vuejs.org), and [Jekyll](https://jekyllrb.com). It uses **NPM (and Bundler)** to manage the project's dependencies, and improve the development workflow. It uses **Webpack** to roll up and transpile all the individual modules and components into a single bundeled JS file. It uses **Jekyll** to bring it all together, build the site, and serve an initial static file to the browser. It uses **Vue** to render pages on the client side (if JS is supported), and provide any additional dynamic functionality that may be needed.
+The current planned contents for this portfolio are the following case studies:
 
-## The best of both worlds.
+### Case study: Presentate
+[Presentate], the product [my co-founder] and I created in 2012–13, is a web-based presentation software and sharing platform. It espoused a view that current presentation software focuses users on the wrong things, encouraging bad practices that waste time and lead to nervous presenters, poor audience experiences, and the dreaded _Death by PowerPoint_.
 
-Take the best parts of a static site workflow and combine them with the new hotness of a client side framework. What you end up with is a great new way to publish content on the modern web. Isomorphic blah blah blah: Use Jekyll to publish the site's pages, and the JSON data behind them—use Vue to build the same pages with the same data. Serve the first static page to the user—if JS is supported, just send the JSON down the wire and build the rest of the pages/content with Vue. If there's no JS support, continue to send pre-rendered static pages down the wire.
+### Case study: Modernizr
+Created and launched in 2009, Modernizr changed the face of the web industry by empowering designers and developers with control over the user experience when using cutting-edge features being added in CSS3 and HTML5. Modernizr has since become [a popular community effort] on GitHub, with more than 200 contributors, over 20,000 stars, and [two Open Source App of the Year awards].
 
-## Setup
+### Case study: A human-centric Twitter
+Twitter suffers from phony bot accounts, spam, abuse & harassment, and fake news. What if those problems could be reduced, perhaps even solved, without imposing moderating and censorship? What if Twitter was designed to put people first?
 
-* Clone the Repo
-* `npm install`
-* `bundle install`
-* `npm run jekyllfy`
+### Case study: An email client for the future
+Between Inbox 5000 and declaring email bankruptcy, our mail clients are consistently poor at actually helping us manage email overload and sorting through the mess to get emails we actually need. Every time a new mail client announces itself I am (briefly) hopeful someone is thinking more holistically about this problem, but each time I am disappointed.
 
+### Case study: Onboarding in space flight sims
+This is an unusual one: I’m writing a science fiction short story that doubles as an example for how space flight simulator games like _Elite: Dangerous_, _Star Citizen_ or _No Man’s Sky_ could onboard new players. It triples as a product design case study, applied to video game design, also highlighting the relevancy of cross-disciplined thinking in this field.
+
+### Case study…sorta: The Writer’s Journey
+[I’m writing a science fiction novel], not just short stories, and I’m product designing my entire approach to writing this novel. As I’m doing so, I’m also documenting the process I’m going through as a first-time novelist, to hopefully help (future) first-timers figure out how to tackle such a project.
+
+---
+
+This project is built on [Bryan Schuetz’s Vue-Jekyll starter](https://github.com/BryanSchuetz/vue-jekyll).
